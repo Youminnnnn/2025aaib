@@ -25,7 +25,7 @@ void draw()
       N--; //更新飼料的總數N
     }
   }
-  println(N)
+  println(N);
   ellipse(fishX, fishY, 30, 10); // 魚
 }
 void mousePressed()
